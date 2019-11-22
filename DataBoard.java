@@ -167,3 +167,48 @@ public interface DataBoard<E extends Data> {
          *          con friend e restituisce un iteratore su di essa
          */
 }
+    /*
+     * Eccezione che viene lanciata se viene inserita una password diversa da quella
+     * del proprietario della bacheca
+     */
+class WrongPasswordException extends Exception {
+    public WrongPasswordException() {
+        super();
+    }
+}
+/*
+ * Ecczione che viene lanciata se friend non appartiene a nessuna lista di
+ * nessuna categoria
+ */
+class NoOneCategoryException extends Exception {
+    public NoOneCategoryException() {
+        super();
+    }
+}
+/*
+ * Eccezione che viene lanciata se si cerca di operare(aggiungere,rimuovere un
+ * amico,dati...) con una categoria che non esiste
+ */
+class NoCategoryException extends Exception {
+    public NoCategoryException() {
+        super();
+    }
+}
+/*
+     * Eccezione che viene lanciata se qualcuno cerca di operare con i dati di una
+     * categoria di cui non fa parte
+     */
+class PermissionDeniedException extends Exception {
+    public PermissionDeniedException() {
+        super();
+    }
+}
+/*
+ * Eccezione che viene lanciata se il dato con cui si cerca di operare non fa
+ * parte della collezione
+ */
+class DataNotFoundException extends Exception {
+    public DataNotFoundException() {
+        super();
+    }
+}
