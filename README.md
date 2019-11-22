@@ -1,4 +1,4 @@
-#DataBoard
+# DataBoard
 Il progetto ha l’obiettivo di applicare i concetti e le tecniche di programmazione Object-Oriented
 
 Si richiede di progettare, realizzare e documentare la collezione DataBoard<E extends Data>. 
