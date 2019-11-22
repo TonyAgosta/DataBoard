@@ -2,7 +2,7 @@
 Il progetto ha l’obiettivo di applicare i concetti e le tecniche di programmazione Object-Oriented
 
 Si richiede di progettare, realizzare e documentare la collezione DataBoard<E extends Data>. 
-La coollezione DataBoard<E extends Data> è un contenitore di oggetti generici che estendono il tipo di dato Data.
+La collezione DataBoard<E extends Data> è un contenitore di oggetti generici che estendono il tipo di dato Data.
 Intuitivamente la collezione si comporta come uno spazio per la memorizzazione e visualizzazioni di dati che
 possono essere di vario tipo.
 Ogni dato presente nella bacheca ha associato la categoria del dato. Il proprietario della bacheca può definire le
