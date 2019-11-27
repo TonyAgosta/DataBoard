@@ -4,7 +4,8 @@ import java.util.List;
 public interface DataBoard<E extends Data> {
         /**
          * OVERVIEW:contenitore di oggetti generici mutabili che estendono il tipo di
-         * data Data.
+         * data Data e si comporta come uno spaio per la memorizzazione e visualizzazione
+         * che possono essere di vario tipo.
          */
 
         /**
